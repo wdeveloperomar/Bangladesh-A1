@@ -14,3 +14,25 @@ body {
     padding: 0 20px;
     font-family: "Fira Sans", serif;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.logo {
+    color: #0E0E0E;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sign-in-button {
+    color: #006A50;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
