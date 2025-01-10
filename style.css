@@ -9,6 +9,10 @@
 }
 
 body {
+    background: #F1F1F3;
+}
+
+.container {
     width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
@@ -210,3 +214,62 @@ nav {
     font-weight: 600;
     line-height: 24px; /* 120% */
 }
+
+
+/* Your Opinion Matters Section Styles */
+.opinion-container {
+    padding: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    margin-top: 24px;
+}
+
+.heading {
+    display: flex;
+    padding: 24px;
+    gap: 24px;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #C6E4D6;
+}
+
+.heading p {
+    color: #0E0E0E;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.opinion-box {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.opinion-box p {
+    color: #0E0E0E;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.opinion {
+    padding: 24px;
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+    
+.opinion button {
+    display: flex;
+    align-items: center;
+    color: #0E0E0E;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background: #C6E4D6;
+    padding: 10px 14px;
+}
+
