@@ -36,6 +36,12 @@ a {
     margin-top: 80px;
 }
 
+.card-container {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
 .card-title {
     color: rgba(14, 14, 14, 0.80);
     font-size: 1.25rem;
@@ -102,12 +108,6 @@ nav {
 /* main section styles start */
 
 /* pillar of banladesh section styles */
-.pillars-card-container {
-    margin-top: 32px;
-    display: flex;
-    gap: 24px;
-}
-
 .pillars-card {
     display: flex;
     padding: 24px;
@@ -117,4 +117,96 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
+}
+
+
+/* The Vision of Future section styles */
+.vision-card-1 {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.vision-card-1-button {
+    display: inline-block;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: #5490F5;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.vision-card-2 {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+}
+
+.vision-card-2-button {
+    display: inline-block;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: #09A15C;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.vision-card-3 {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.vision-card-3-button {
+    display: inline-block;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: #FFC239;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.quote-container {
+    margin-top: 32px;
+    display: flex;
+    padding: 48px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    position: relative;
+}
+
+.quote-bg {
+    position: absolute;
+    top: 23px;
+}
+
+.quote-author-name {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
 }
