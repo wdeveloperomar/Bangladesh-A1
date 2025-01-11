@@ -483,6 +483,13 @@ nav {
     border-radius: 0px 8px 8px 0px;
     background: #006A50;
     outline: 0;
+    transition: 0.8s;
+}
+
+.subscribe button:hover {
+    background: #004b38;
+    cursor: pointer;
+    transform: translateX(-5px);
 }
 
 .subscribe-promise {
