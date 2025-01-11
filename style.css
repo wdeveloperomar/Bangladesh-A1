@@ -32,6 +32,12 @@ a {
     font-size: 1.125rem;
     font-weight: 600;
     border: none;
+    transition: 0.5s;
+}
+
+.button-primary:hover {
+    background: #004b38;
+    cursor: pointer;
 }
 
 .section-title {
@@ -82,6 +88,12 @@ nav {
     border-radius: 8px;
     border: 1px solid #006A50;
     display: inline-block;
+    transition: 0.5s;
+}
+
+.sign-in-button:hover {
+    background: #006A50;
+    color: #FFF;
 }
 
 
@@ -122,6 +134,13 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
+    transition: 0.5s;
+}
+
+.pillars-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
 
@@ -145,8 +164,13 @@ nav {
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
-
+    transition: 0.5s;
 }
+
+.vision-card-1-button:hover {
+    background: #3475e7;
+}
+
 .vision-card-2 {
     display: flex;
     padding: 32px;
@@ -166,7 +190,11 @@ nav {
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
+    transition: 0.5s;
+}
 
+.vision-card-2-button:hover {
+    background: #04854b;
 }
 .vision-card-3 {
     display: flex;
@@ -187,8 +215,13 @@ nav {
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
-
+    transition: 0.5s;
 }
+
+.vision-card-3-button:hover {
+    background: #f0b01b;
+}
+
 
 .quote-container {
     margin-top: 32px;
