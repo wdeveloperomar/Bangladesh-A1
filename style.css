@@ -392,3 +392,64 @@ nav {
     font-weight: 400;
     width: 1032px;
 }
+
+/* subscribe section styles */
+.subscribe-container {
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    margin-top: 80px;
+
+}
+
+.subscribe-title {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.subscribe-description {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-top: 24px;
+    width: 622px;
+    margin: 0 auto;
+
+}
+
+.subscribe {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe input {
+    padding: 18px 40px;
+    outline: 0;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    border: 0;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 600px;
+
+}
+
+.subscribe button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border: 0;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    outline: 0;
+}
+
+
